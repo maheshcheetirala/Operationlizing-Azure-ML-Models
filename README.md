@@ -34,7 +34,9 @@ Once we Have the best model its time to deploy the model. We can use azure Kuber
 ### Enabling the Logs using app Insights<br>
 Once the model is deployed we need to enable the logs setting the appinsights = True in the Experiment logging section by adding the experiment name. Once we have enabled the logging we should see the status in application insights saying the failed requests, timed out requests etc.<br>
 ![Logs Enabled in Python Script](logsenabled.PNG)<br>
-![Logs Enabled](logsenabled.PNG)
+
+![Logs Enabled](appinsightsenabled.PNG)<br>
+
 ![Application Insights from the Portal](appinsights.PNG)<br>
 
 ### Consumption of Endpoint<br>
@@ -55,7 +57,8 @@ Its always better to evaluate the model perfomance continuously and take necessa
 The whole process can be automated using the CI/CD pipelines similar to devops. Azure ML python SDK has a great feature  for this where we can define the piplelines and pipeline parameters . We can schedule the pipelines using schdeule recurrence parameter reducing the manual efforts.<br>
 ![Pipeline in Azure](restoutputs.PNG)<br>
 ![Pipeline Graph](pipeline.PNG)<br>
-![Rest Endpoint pipeline](restpoint.PNG)
+![Rest Endpoint pipeline](restendpoint.PNG)
+![PipelineRunSubmitted](rundetails.PNG)
 ![Pipelinerun](pipelinesummary.PNG)
 
 ## Screen Recording
