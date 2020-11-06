@@ -23,6 +23,11 @@ The first step in life cycle process is authentication, we have three types of a
 For any deployment to be successful proper configuration is the crucial step. Here we need to configure the Cluster settings under the compute section of workspace.We choose minimum node count as 1 and maximum node count as 5. The upscaling and down scaling happens based on the demand from the experiments.<br>
 ### Register the Dataset <br>
 Navigate to the Datasets section in the Workspace and create a new dataset from webfile and submit the URL required for the dataset. After this we should be able to register the dataset and use the registered Dataset for running experimnents in the workspace.<br>
+![Datset Registartion in Azure Portal](registration.PNG)<br>
+### AutoML Run
+Once the Dataset is registered we need to run a new Automl run from the workspace experiments sections. We need to choose the label column and select the compute target.Once the automl run is completed we get the best model out of several models. Here we got voting ensemble model which chooses voting model to choose the best of several runs. The base model is XGBOOST with Maxabs scaling and an accuracy of 91%.<br>
+![AutoMl run in portal](automl.PNG)<br>
+![Best model from AutoML Run)(bestmodel.PNG)<br>
 
 
 
