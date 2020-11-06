@@ -1,4 +1,4 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+
 
 
 # Operationalizing The Machine Learning Model In Azure <br>
@@ -8,7 +8,9 @@ The Main aim of this Project is to productionize the Machine learning model usin
 We need to consume the model built to see how the model is performing . To consume the model we need to deploy the model using ACI or AKS.<br>
 In short we are going to deploy a ML model and cosnume it usig Endpoints and see how its performing by enabling app insights.<br>
 
-## Architectural Diagram
+
+## Architectural Diagram<br>
+![complete architecture of the Project](complete architecture.PNG)
 
 
 ## Key Steps
