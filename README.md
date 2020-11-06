@@ -55,7 +55,7 @@ The whole process can be automated using the CI/CD pipelines similar to devops. 
 ![Pipeline in Azure](restoutputs.PNG)<br>
 ![Pipeline Graph](pipeline.PNG)<br>
 ## Screen Recording
-[Video Shwoing Complete Life Cycle](https://youtu.be/9o0xplsh4zE)<br>
+[Video Shwoing Complete Life Cycle](https://youtu.be/F1gmkDBKVfE)<br>
 
 ## Standout Suggestions
 - The Dataset is imbalnaced may be doing feature engineering can improve the accuracy.<br>
