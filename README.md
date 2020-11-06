@@ -52,8 +52,8 @@ Its always better to evaluate the model perfomance continuously and take necessa
 ![Apache Bench Marl](benchmark.PNG)<br>
 ### Creating and Publishing pipeline <br>
 The whole process can be automated using the CI/CD pipelines similar to devops. Azure ML python SDK has a great feature  for this where we can define the piplelines and pipeline parameters . We can schedule the pipelines using schdeule recurrence parameter reducing the manual efforts.<br>
-![Pipeline in Azure](Register.PNG)<br>
-![pipelineRuns)(pipeline.PNG)<br>
+![Pipeline in Azure](restoutputs.PNG)<br>
+![Pipeline Graph](pipeline.PNG)<br>
 ## Screen Recording
 
 
