@@ -33,7 +33,7 @@ Once we Have the best model its time to deploy the model. We can use azure Kuber
 ![Endpoint of the deployed model](endpoint.PNG)<br>
 ### Consumption of Endpoint<br>
 We can consume this endpoint using REST API or by running Azure ML python SDK's. Here we are testing both using endpoint.py and Swagger<br>
-![Endpoint consumption](endpoint.PNG) <br>.
+![Endpoint consumption](consumption.PNG) <br>.
 Here we are testing two data points and we get two outputs yes, No as the output.<br>
 
 
