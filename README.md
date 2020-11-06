@@ -10,7 +10,7 @@ In short we are going to deploy a ML model and cosnume it usig Endpoints and see
 
 
 ## Architectural Diagram<br>
-! [complete architecture of the Project](complete architecture.PNG)
+![complete architecture of the Project](complete architecture.PNG)
 
 
 ## Key Steps
