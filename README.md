@@ -49,16 +49,13 @@ After that we need to launch a local web server using serve script and lauch swa
 Replace the default swagger URL with your local hsot URL and swagger will display the sample input and sample outputs for our application.<br>
 ### Bench Marking<br>
 Its always better to evaluate the model perfomance continuously and take necessary action. Here we use apache benchmark to see the model performance for ten runs.<br>
-![Apache Bench Marl](benchmark.PNG)
-
-
-
-
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
-
+![Apache Bench Marl](benchmark.PNG)<br>
+### Creating and Publishing pipeline <br>
+The whole process can be automated using the CI/CD pipelines similar to devops. Azure ML python SDK has a great feature  for this where we can define the piplelines and pipeline parameters . We can schedule the pipelines using schdeule recurrence parameter reducing the manual efforts.<br>
+![Pipeline in Azure](Register.PNG)<br>
+![pipelineRuns)(pipeline.PNG)<br>
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
