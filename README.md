@@ -57,14 +57,17 @@ Its always better to evaluate the model perfomance continuously and take necessa
 The whole process can be automated using the CI/CD pipelines similar to devops. Azure ML python SDK has a great feature  for this where we can define the piplelines and pipeline parameters . We can schedule the pipelines using schdeule recurrence parameter reducing the manual efforts.<br>
 ![Pipeline in Azure](restoutputs.PNG)<br>
 ![Pipeline Graph](pipeline.PNG)<br>
-![Rest Endpoint pipeline](restendpoint.PNG)
-![PipelineRunSubmitted](rundetails.PNG)
+![Rest Endpoint pipeline](restendpoint.PNG)<br>
+The active endpoint can be veiwed in endpoints section as below.<br>
+![Active rest api](activeendpoint.PNG)<br>
+![PipelineRunSubmitted](rundetails.PNG)<br>
 ![Pipelinerun](pipelinesummary.PNG)
 
 ## Screen Recording
 [Video Shwoing Complete Life Cycle](https://youtu.be/F1gmkDBKVfE)<br>
 
-## Standout Suggestions
+## Future Improvements
 - The Dataset is imbalnaced may be doing feature engineering can improve the accuracy.<br>
 - We can configure alerts using azure functions when the benchmark is above or beyond threshold.<br>
 - collecting more data can definietly help in improving accuracy.
+- We can try tesing the batch data in a shcedule and see the performance.
